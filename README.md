@@ -36,3 +36,16 @@ Microcontroller: Arduino Uno
  - XLoader: To flash the custom CAN bus translation code.
 
  - Arduino IDE
+
+
+
+
+
+
+
+
+ format([Rpms], '0') + ';' +
+format([SpeedKmh], '0') + ';' +
+format([WaterTemperature], '0') + ';' +
+format([FuelPercent], '0') + ';' +
+if([Rpms] > 0 and [FuelPercent] <= 10, '1', '0') + '\n'
