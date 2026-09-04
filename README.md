@@ -41,7 +41,7 @@ Microcontroller: Arduino Uno
 
 
 
-
+**In the Update messages enter the following code:**
 
 
  format([Rpms], '0') + ';' +
