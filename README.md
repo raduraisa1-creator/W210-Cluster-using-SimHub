@@ -3,8 +3,7 @@
 
 This project brings a real Mercedes-Benz E-Class (W210) instrument cluster back to life as a fully functional, real-time dashboard for sim racing and PC games.
 
-By combining the cluster with an Arduino Uno, an MCP2515 CAN bus module, and SimHub software, the physical analog gauges (Speedometer, Tachometer, Fuel, Temperature) and warning lights react dynamically to in-game telemetry data.
-
+By combining the cluster with an Arduino Uno, an MCP2515 CAN bus module, and SimHub software, the physical analog gauges (Speedometer, Tachometer, Temperature).
 **How It Works**
 
  SimHub Software: Runs on the PC, extracting live telemetry data (like RPM and speed) from supported games (such as Assetto Corsa, Euro Truck Simulator, Dirt Rally, etc.).
